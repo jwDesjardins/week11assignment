@@ -1,0 +1,43 @@
+#board {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 5px;
+  width: 300px;
+  margin-bottom: 10px;
+}
+
+.cell {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  background-color: rgb(33, 12, 114);
+  height: 100px;
+  cursor: pointer;
+}
+
+.alert {
+  padding: 10px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.alert-success {
+  background-color: #48c774;
+  border-color: #48c774;
+  color: white;
+}
+
+.alert-danger {
+  background-color: #f14668;
+  border-color: #f14668;
+  color: white;
+}
+
+.text-danger {
+  color: #f14668;
+}
+
+.text-success {
+  color: #48c774;
+}
