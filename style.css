@@ -6,6 +6,10 @@
   margin-bottom: 10px;
 }
 
+#result {
+  display: none;
+}
+
 .cell {
   display: flex;
   align-items: center;
